@@ -1,6 +1,6 @@
 {
   "name": "creatorfy-clippy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Creatorfy Clippy as a React Hook!",
   "main": "index.js",
   "scripts": {
