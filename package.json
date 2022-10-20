@@ -1,0 +1,49 @@
+{
+  "name": "creatorfy-clippy",
+  "version": "1.0.0",
+  "description": "Creatorfy Clippy as a React Hook!",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "scripts": {
+    "prebuild": "rimraf ./dist",
+    "build": "npm run build:cjs && npm run build:esm",
+    "build:esm": "npx babel ./src --out-dir dist/esm --copy-files",
+    "build:cjs": "npx babel ./src --out-dir dist/cjs --copy-files",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akilany/creatorfy-clippy.git"
+  },
+  "keywords": [
+    "creatorfy",
+    "hook",
+    "clippy"
+  ],
+  "author": "Creatorfy",
+  "homepage": "https://github.com/akilany/creatorfy-clippy#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akilany/creatorfy-clippy/issues"
+  },
+  "dependencies": {
+    "clippyjs": "^0.0.3",
+    "jquery": "^3.6.0",
+    "prop-types": "^15.8.1"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "react": "^18.2.0",
+    "rimraf": "^3.0.2"
+  }
+}
