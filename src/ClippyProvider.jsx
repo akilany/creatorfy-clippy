@@ -7,11 +7,11 @@ import AGENTS from "./agents";
 import ClippyContext from "./ClippyContext";
 
 if (typeof window !== "undefined")
-  window.CLIPPY_CDN = "//gitcdn.xyz/repo/pi0/clippyjs/master/assets/agents/";
+  window.CLIPPY_CDN = "//creatorfy.s3.amazonaws.com/";
 
 let clippyAgent;
 
-const ClippyProvider = ({ children, agentName = AGENTS.CLIPPY }) => {
+const ClippyProvider = ({ children, agentName = AGENTS.ROCKY }) => {
   const [clippy, setClippy] = useState();
 
   function byebye(agent, cb) {
