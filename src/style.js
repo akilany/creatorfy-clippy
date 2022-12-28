@@ -6,7 +6,7 @@ const style = `
 }
 
 .clippy-balloon {
-  background: #FFC;
+  background: #FFBBF5;
   color: black;
   padding: 8px;
   border: 1px solid black;
