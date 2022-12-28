@@ -6,7 +6,8 @@ import clippyStyle from "./style";
 import AGENTS from "./agents";
 import ClippyContext from "./ClippyContext";
 
-if (typeof window !== "undefined") window.CLIPPY_CDN = "./agents/";
+if (typeof window !== "undefined")
+  window.CLIPPY_CDN = "//gitcdn.xyz/repo/pi0/clippyjs/master/assets/agents/";
 
 let clippyAgent;
 
