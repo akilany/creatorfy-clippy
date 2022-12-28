@@ -1,5 +1,5 @@
 const AGENTS = {
-  ROCKY: "rocky",
+  ROCKY: "Rocky",
 };
 
 export default AGENTS;
