@@ -6,18 +6,19 @@ const style = `
 }
 
 .clippy-balloon {
-  background: #FFBBF5;
+  background: #FFF;
   color: black;
   padding: 8px;
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 2px solid #FFBBF5;
+  border-radius: 10px;
 }
 
 .clippy-content {
   max-width: 200px;
   min-width: 120px;
-  font-family: 'MS Sans Serif';
+  font-family: 'Roboto';
   font-size: 12px;
+  font-weight: 500;
 }
 
 .clippy-button {
@@ -34,6 +35,7 @@ const style = `
   height: 16px;
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAgCAMAAAAlvKiEAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAlQTFRF///MAAAA////52QwgAAAAAN0Uk5T//8A18oNQQAAAGxJREFUeNqs0kEOwCAIRFHn3//QTUU6xMyyxii+jQosrTPkyPEM6IN3FtzIRk1U4dFeKWQiH6pRRowMVKEmvronEynkwj0uZJgR22+YLopPSo9P34wJSamLSU7lSIWLJU7NkNomNlhqxUeAAQC+TQLZyEuJBwAAAABJRU5ErkJggg==) no-repeat;
   position: absolute;
+  display: none;
 }
 
 .clippy-top-left .clippy-tip {
