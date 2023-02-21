@@ -16,7 +16,6 @@ const style = `
 .clippy-content {
   max-width: 200px;
   min-width: 120px;
-  font-family: 'Roboto';
   font-size: 12px;
   font-weight: 500;
 }
